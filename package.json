@@ -1,0 +1,14 @@
+{
+  "name": "kova-platform",
+  "version": "5.0.0",
+  "description": "Kova — AI Marketing & Sales Platform for Nigerian Businesses",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.24.0",
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2",
+    "twilio": "^5.0.0"
+  },
+  "engines": { "node": ">=18.0.0" }
+}
